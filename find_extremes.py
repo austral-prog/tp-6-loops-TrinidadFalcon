@@ -1,4 +1,4 @@
-import numbers
+
 
 
 def find_min(numbers):
@@ -27,11 +27,11 @@ def find_max(numbers):
     Ejemplo: find_max([5, 5, 5]) -> 5
     Ejemplo: find_max([-3, -1, -7]) -> -1
     """
-    max = numbers[0]
+    maxim = numbers[0]
     for i in range(len(numbers)):
-        if numbers[i] > max:
-            max = numbers[i]
-    return max
+        if numbers[i] > maxim:
+            maxim = numbers[i]
+    return maxim
 
 
 

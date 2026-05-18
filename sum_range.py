@@ -15,7 +15,7 @@ def sum_to_n(n):
     suma = 0
     for i in range (1, n+1):
          suma += i
-    return (suma)
+    return suma
 
 
 
@@ -35,7 +35,7 @@ def sum_evens(n):
     for i in range (1, n + 1):
         if i % 2 == 0:
             suma += i
-    return (suma)
+    return suma
 
 def factorial(n):
     """
@@ -47,9 +47,9 @@ def factorial(n):
     if n<= 0:
         return 1
 
-    factorial = 1
+    factorial1 = 1
     for i in range(1, n+1):
-        factorial *= i
+        factorial1 *= i
 
-    return factorial
+    return factorial1
 
